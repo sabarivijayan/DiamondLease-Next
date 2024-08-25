@@ -1,0 +1,111 @@
+.location {
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 56px;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.locationHeadings {
+    color: white;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 51px;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.locationUl {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.locationLi {
+    border-right: 2px solid #333333;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 56px;
+    padding-right: 56px;
+    margin-bottom: 65px;
+}
+
+.locationLi:last-child {
+    border-right: 0;
+}
+
+.locationLi span {
+    margin-left: 16px;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+}
+
+.locationLiEnd {
+    border: none;
+}
+
+@media only screen and (max-width: 786px) {
+    .location {
+        padding: 16px;
+    }
+
+    .location {
+        background-color: black;
+        text-align: center;
+        padding: 16px;
+        color: white;
+        margin-top: 40px;
+        margin-bottom: 56px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }    
+
+    .locationHeadings {
+        color: white;
+        margin-bottom: 24px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .locationUl {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .locationLi {
+        border-right: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 16px;
+        margin-right: 16px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19.07px;
+        text-align: left;
+
+    }
+
+    .locationLi span {
+        margin-left: 16px;
+        color: #FFFFFF;
+        font-family: "Open Sans", sans-serif;
+
+    }
+}

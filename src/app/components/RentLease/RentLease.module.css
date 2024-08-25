@@ -1,0 +1,75 @@
+.rentSteps {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.rentStepsRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.rentStepCols {
+    justify-content: center;
+    width: 348px;
+    height: auto;
+}
+
+.rentStepsHeading {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 51px;
+    text-align: center;
+}
+
+.rentSteph3 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #E21E26;
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.rentStepSubdiv {
+    width: 348px;
+    height: 178px;
+    border: 1px solid black;
+}
+
+.rentStepSubdivImg {
+    margin-top: 16px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.rentDivPara {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.5px;
+    text-align: center;
+    margin: 0px 40px 16px 40px;
+}
+
+@media only screen and (max-width: 786px) {
+
+    .rentStepsHeading {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        padding-top: 0px;
+    }
+
+    .rentSteps {
+        text-align: center;
+        padding-top: 24px;
+        margin-bottom: 80px;
+        padding: 24px 16px;
+    }
+}

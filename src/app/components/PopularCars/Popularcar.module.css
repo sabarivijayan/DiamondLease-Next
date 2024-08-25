@@ -1,0 +1,158 @@
+.popularCardRow {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: 0px;
+    margin: 0 64px;
+}
+
+.popularCardRow::-webkit-scrollbar {
+    display: none;
+}
+
+.popularcarsH2 {
+    margin: 40px 0px;
+    font-size: 34.74px;
+    font-weight: 400;
+    line-height: 52.11px;
+    text-align: center;
+}
+
+.imageDiv {
+    width: 357px;
+}
+
+.popularCarCard {
+    display: flex;
+    height: 290px;
+    width: 754px;
+    border: 1px solid #d9d9d9;
+    margin-right: 22px;
+}
+
+.popularCarCardInfo {
+    padding: 20px 40px;
+    width: 394px;
+}
+
+.popularCarCardInfoHeading {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+}
+
+.popularCarCardInfoPara {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18.5px;
+    text-align: left;
+    width: 298px;
+}
+
+.popularCarUl {
+    list-style: none;
+    display: flex;
+    margin-top: 52px
+}
+
+.popularcarLi {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 16.5px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    width: auto;
+}
+
+.popularcarLi img {
+    margin-right: 8px;
+}
+
+.popularcarLi p {
+    width: 60px;
+}
+
+.popularCardCost {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.popularCarCardInfo2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+}
+
+.bookNowButton {
+    width: 98px;
+    height: 37px;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: white;
+    background-color: #E21E26;
+}
+
+.bookNowButton:hover {
+    background-color: #bb181d;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 786px) {
+
+    .popularCardRow {
+        margin: 0 16px;
+    }
+
+
+    .popularcarsH2 {
+        padding: 24px 0px 0px 16px;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .popularCarUl {
+        list-style: none;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .popularcarLi {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 62px;
+        height: 17px;
+        margin-right: 8px;
+        width: 70px;
+    }
+
+    .popularcarLi img {
+        margin-right: 8px;
+        width: 17px;
+        height: 17px;
+    }
+
+    .popularcarLi p {
+        height: 15px;
+        width: 80px;
+    }
+
+
+}

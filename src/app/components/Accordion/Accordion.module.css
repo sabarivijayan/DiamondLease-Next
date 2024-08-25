@@ -1,0 +1,88 @@
+.accordionBox {
+    border-bottom: 3px solid #CDD6DA40;
+    margin-left: 89px;
+}
+
+.accordion {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.active,
+.accordion:hover {
+    background-color: white;
+
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.71px;
+    text-align: left;
+    color: #808080;
+    margin-bottom: 24px;
+}
+
+.panelPara {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.71px;
+    text-align: left;
+}
+
+.rotateImage {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.open {
+    display: block;
+}
+
+.active {
+    transform: rotate(45deg);
+}
+
+
+@media only screen and (max-width: 786px) {
+
+    .accordionBox {
+        border-bottom: 1px solid #CDD6DA40;
+        margin-left: 0px;
+    }
+
+    .accordion {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        padding: 0px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        margin: 16px 0px;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15.6px;
+        text-align: left;
+    }
+}

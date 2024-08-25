@@ -1,0 +1,368 @@
+.quickBookContainer {
+  margin: 8px 64px;
+}
+
+.quickBook {
+  background-image: url("/logos/Maskgroup.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  padding: 18px 81px;
+  min-height: 227px;
+}
+
+.tabsList {
+  list-style: none;
+  font-size: 14px;
+  display: flex;
+  margin: 16px 0;
+}
+
+.tabsLi {
+  /* padding: 16px; */
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
+
+.tabsLi a {
+  color: #dfdfdf;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.tabsLi a:hover {
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.bookInput {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.locationSelect,
+.startTime,
+.endTime {
+  padding: 8px 20px;
+  border-radius: 16px;
+  border: none;
+  margin-right: 16px;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+.searchButton {
+  border-radius: 24px;
+  padding: 6px 16px;
+  border: none;
+  margin-right: 16px;
+  margin-bottom: 4px;
+  background-color: white;
+}
+
+.searchButton:hover {
+  background-color: #f8f8f8;
+}
+
+.vDivider {
+  border-right: 1px solid #ffffff;
+  width: 1px;
+  height: 32px;
+  margin-right: 16px;
+}
+
+.quickBookButton {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 32px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.quickBookButton:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.appStore {
+  display: flex;
+  align-items: center;
+}
+
+.downloadPara {
+  margin-right: 19px;
+  color: #ffffff;
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.appImages {
+  display: flex;
+}
+
+.storeDownloadImage {
+  margin-right: 9px;
+}
+
+.vehicleSelect {
+  background-color: #ffffff23;
+  color: #ffffff;
+  border: none;
+  padding: 9px 16px;
+  border-radius: 50px;
+}
+
+.vehicleSelect option {
+  background-color: #ac171d;
+  color: white;
+}
+
+.quickBookMobile {
+  display: none;
+  background-color: white;
+}
+.iconsSideMV {
+  display: none;
+}
+.iconsSide {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  gap: 20px;
+  top: 180px;
+}
+.iconsSide button {
+  border: none;
+  background: transparent;
+}
+.iconssSide {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  top: 120px;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 1000px) {
+  .quickBookContainer {
+    margin: 8px 16px;
+  }
+
+  .quickBookMobile {
+    display: block;
+    text-align: center;
+  }
+
+  .tab {
+    display: none;
+  }
+
+  .bookInput {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+
+  .tabs,
+  .bookInput {
+    display: none;
+  }
+
+  .quickBook {
+    min-height: 120px;
+    padding: 16px 40px;
+  }
+
+  .appStore {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .downloadPara {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .bookDropdownMenu {
+    display: flex;
+    text-align: center;
+    margin: 16px 16px;
+    justify-content: center;
+  }
+
+  .BookACar {
+    background-color: #e21e26;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    width: 160px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: center;
+    height: 38px;
+    margin-right: 8px;
+  }
+
+  .BookACar:hover {
+    background-color: #b6171c;
+  }
+
+  .bookQuick {
+    background-color: transparent;
+    border: 2px solid #e21e26;
+    color: #e21e26;
+    border-radius: 8px;
+    background-color: white;
+    width: 160px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: center;
+    height: 38px;
+  }
+
+  .bookQuick:hover {
+    background-color: rgb(219, 219, 219);
+  }
+
+  .bookTabs {
+    display: none;
+  }
+
+  .bookTabsActive {
+    display: block;
+  }
+
+  .tabsListMv {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .tabsLiMv button {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 56.74px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    padding: 4px;
+  }
+
+  .tabsLiMv button:hover {
+    margin-right: 10px;
+    text-decoration: underline;
+    color: black;
+  }
+
+  .vehicleSelectmv {
+    border: 0;
+    font-size: 12px;
+  }
+
+  .quickBookLi {
+    list-style: none;
+  }
+
+  .quickBookmobileInput {
+    background-color: white;
+  }
+
+  .pickupSelectmv,
+  .dropOffLocation,
+  .pickupDate,
+  .dropOffDate {
+    padding: 16px;
+    padding-left: 32px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #f6f7f9;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .dropOffLocationInactive {
+    display: none;
+  }
+
+  .dropOffLocationActive {
+    display: block;
+    padding: 16px;
+    padding-left: 32px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #f6f7f9;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .quickbookSearch {
+    background-color: #e21e26;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    width: 160px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: center;
+    height: 38px;
+    /* margin: 16px 64px; */
+  }
+
+  .desktop {
+    display: none;
+  }
+  .iconsSide {
+    display: none;
+  }
+  .iconsSideMV {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    gap: 20px;
+    top: 100px;
+  }
+  .iconsSideMV button {
+    border: none;
+    background: transparent;
+  }
+  .iconssSideMV {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 120px;
+    z-index: 1;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .vehicleSelectmv {
+    border: 0;
+    font-size: 13px;
+  }
+
+  .tabsLiMv a {
+    font-size: 13px;
+  }
+}

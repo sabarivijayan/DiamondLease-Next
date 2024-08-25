@@ -1,0 +1,18 @@
+.bookNowButton {
+    width: 98px;
+    height: 37px;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: white;
+    background-color: #E21E26;
+}
+
+.bookNowButton:hover {
+    background-color: #bb181d;
+    cursor: pointer;
+}

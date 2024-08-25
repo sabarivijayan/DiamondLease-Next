@@ -1,0 +1,147 @@
+.slideshowContainer {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.giftVoucherButton {
+  background-color: #009046;
+  color: white;
+  width: 153px;
+  height: 31.49px;
+  border-radius: 32px;
+  border: none;
+}
+
+.giftVoucherButton:hover {
+  background-color: #05af57;
+  cursor: pointer;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.mySlides {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.slideshowContainer {
+  position: relative;
+  width: 100%;
+  padding: 0px 64px;
+  height: 405px;
+  border-radius: 12px;
+}
+
+.mySlides {
+  display: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 407px;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.show {
+  display: block;
+}
+
+.dotContainer {
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  position: relative;
+  top: -50px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.active {
+  background-color: #717171;
+}
+
+.summerPromotionDiv {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-size: 18.37px;
+  font-weight: 400;
+  line-height: 26.91px;
+}
+
+@media only screen and (max-width: 786px) {
+  .slideshowContainer {
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    height: 217px;
+    border-radius: 0px;
+  }
+
+  .mySlides {
+    height: 217px;
+    border-radius: 0px;
+  }
+
+  .summerPromotionDiv {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-size: 9.8px;
+    font-weight: 400;
+    line-height: 26.91px;
+  }
+
+  .giftVoucherButton {
+    width: 81px;
+    height: 16px;
+    border-radius: 0px;
+    border: none;
+    font-size: 8.12px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 10.27px;
+  }
+
+  .dot {
+    height: 4px;
+    width: 4px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+}
