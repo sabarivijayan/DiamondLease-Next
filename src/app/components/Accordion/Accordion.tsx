@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import styles from "./Accordion.module.css";
 import Image from "next/image";
 
+//type checking and providing structure to the data
 interface faqInterface {
   id: number;
   question: string;
@@ -13,7 +14,9 @@ interface AccordionProps {
   faqs: faqInterface[];
 }
 
+{/*Calling the AccordionProps interface to receive an array of FAQ's*/}
 const Accordion: React.FC<AccordionProps> = ({ faqs }) => {
+
   //useState hook to set the active and inactive state of the accordion
   const [active, setActive] = useState<number | null>(null);
 
@@ -22,9 +25,8 @@ const Accordion: React.FC<AccordionProps> = ({ faqs }) => {
   };
 
   return (
-    <div className={styles.accordionContainer}>
-      {/* Mapping accordion based on data available in faqs*/}
-      {faqs.map((faq: faqInterface, index: number) => (
+    <div className={styles.accordionContainer}> {/* Mapping accordion section based on data available in faqs*/}
+      {faqs.map((faq: faqInterface, index: number) => (   
         <div key={faq.id} className={styles.accordionBox}>
           <button
             className={styles.accordion}

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Popularcar.module.css";
-import CarCard from "../CarCard/CarCard";
+import CarCard from "../CarSlider/CarCard";
 import { popCars } from "@/app/libs/siteData";
 
 function PopularCars() {
